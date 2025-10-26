@@ -23,6 +23,16 @@ from spack.package import *
 #  - package key must be in the form '{os}-{arch}' where 'os' is in the
 #    format returned by platform.system() and 'arch' by platform.machine()
 _versions = {
+    "2025.5.1": {
+        "Linux-aarch64": (
+            "a11d68ee8f117bc15140cdb82399ac59a09930ff5ee0ea7eca12bf935159ef74",
+            "https://developer.nvidia.com/downloads/assets/tools/secure/nsight-systems/2025_5/nsight-systems-2025.5.1-2025.5.1.121_3638078-0.aarch64.rpm",
+        ),
+        "Linux-x86_64": (
+            "2ee6454b768f86c4053026ee65ec7d8e60920c214b102178e8e2f87073ee6fdd",
+            "https://developer.nvidia.com/downloads/assets/tools/secure/nsight-systems/2025_5/nsight-systems-2025.5.1-2025.5.1.121_3638078-0.x86_64.rpm"
+        ),
+    },
     "2024.6.1": {
         "Linux-aarch64": (
             "24700c28dfda9f95d4e93de218b86ab1ba0ee8b74cb61c3c581767296159c75c",
